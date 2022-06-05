@@ -1,0 +1,39 @@
+{
+    "name": "core-api",
+    "version": "1.0.0",
+    "description": "An API which act as a core interface between the UI and the microservices",
+    "main": "app.js",
+    "scripts": {
+        "test": "nyc mocha  --exit",
+        "integration-test": "mocha",
+        "start": "nodemon -L app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "No",
+    "license": "ISC",
+    "homepage": "",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "minimist": "^1.2.0",
+        "nyc": "^14.1.1",
+        "path": "^0.12.7",
+        "supertest": "^3.4.1"
+    },
+    "dependencies": {
+        "app-root-path": "^2.2.1",
+        "axios": "^0.18.1",
+        "compression": "^1.7.4",
+        "config": "^3.2.2",
+        "cors": "^2.8.5",
+        "dotenv": "^8.1.0",
+        "express": "^4.17.1",
+        "helmet": "^3.21.1",
+        "lodash": "^4.17.21",
+        "moment": "^2.24.0",
+        "nodemon": "^2.0.16",
+        "yargs-parser": "^13.1.0"
+    }
+}
